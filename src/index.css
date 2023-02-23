@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=muli&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "muli", "sens-sarif";
+}
+img {
+  height: 100%;
+}
+.navbar {
+  background-color: #fdf2e6 !important;
+  /* margin-top: 14rem !important; */
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 991px) {
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+@media (min-width: 700px) and (max-width: 1100px) {
+  .for-tablet {
+    margin-left: 500px;
+  }
+  .top-image {
+    margin-left: 60px;
+  }
+  .web5-img {
+    margin: 20px 0 0 380px !important;
+  }
+  .for-tablet {
+    margin: 0 0 0 0px !important;
+    height: 250px !important;
+  }
+  .web-7 {
+  }
+  .web-9 {
+    width: 200px !important;
+    margin: 10px 0 0 -55px !important;
+  }
+  .web-8 {
+    width: 200px !important;
+    margin: 10px 0 0 0 !important;
+  }
+  .web-3 {
+    height: 200px !important;
+    margin: 10px 0 0 -5px !important;
+  }
+  .web-11 {
+    margin-left: 250px !important;
+  }
+  .card-width {
+    width: 100% !important;
+  }
+  .web-22 {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .card-1 {
+    margin-top: 35px !important;
+  }
+  .carousel-card {
+    width: 20rem !important;
+    margin-top: 60px !important;
+  }
+
+  .h6-margin {
+    margin-top: 0px !important;
+  }
+  .card-2 {
+    width: 15rem !important;
+    background: transparent !important;
+    border: none !important;
+    margin-top: 50px !important;
+    padding-top: 5px !important;
+    margin-left: 45px !important;
+  }
+  .h1 {
+    font-size: 30px !important;
+  }
+  .h4 {
+    font-size: 20px !important;
+  }
+  .nav-ul {
+    row-gap: 1px !important;
+  }
+  .carousel-for-laptop {
+    display: none;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .for-table-h1 {
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: -25px;
+  }
+  .for-table-h2 {
+    font-size: 10px;
+    margin-left: -20px;
+  }
+  .our-creation {
+    font-size: 20px;
+  }
+  .my-story {
+    margin: 20px 0 0 -100px !important;
+    font-size: 15px !important;
+  }
+  .my-create {
+    font-size: 3px !important;
+    margin-left: -100px !important;
+  }
+  .top-image {
+    height: 300px;
+  }
+  .web-3 {
+    margin: -20px 0 0 -10px !important;
+    height: 100px !important;
+  }
+  .web-9 {
+    height: 110px !important;
+    margin: -20px 0 0 -20px !important;
+  }
+  .web-8 {
+    height: 110px !important;
+    margin: -20px 0 0 0 !important;
+  }
+  .web5-img {
+    margin-left: 150px !important;
+    margin-top: 20px !important;
+  }
+  .for-tablet-h1 {
+    font-size: 20px !important;
+  }
+
+  .for-tablet {
+    height: 110px !important;
+    margin: -10px 0 0 0 !important;
+  }
+  .web-11 {
+    margin-left: 55px !important;
+  }
+  .card-width {
+    width: 100% !important;
+  }
+  .input {
+    width: 200px !important;
+  }
+  .insta-btn {
+    margin-left: 120px !important;
+  }
+  .web-22 {
+    width: 140% !important;
+    margin-left: -40px;
+  }
+  .carousel-for-laptop {
+    display: none;
+  }
+}
+@media (min-width: 1100px) {
+  .carousel-for-tablet {
+    display: none;
+  }
+}
+
+/* ---------------------------------------- */
+
+.text {
+  font-family: "Lucida Sans Regular";
+  color: #d8887c !important;
+}
+.card-wrapper {
+  display: flex;
+}
+.line {
+  border: 0.5px solid #bdbdbd;
+}
+.card-width {
+  width: 18rem;
+  height: 18rem;
+}
+.back-color {
+  background-color: #fffee9 !important;
+}
+.card {
+  border-radius: 0% !important;
+}
+.btn-primary {
+  border-radius: 0% !important;
+  background-color: #b7b024 !important;
+  border: none !important;
+}
+
+.container-color {
+  background-color: #fffbf6 !important;
+}
+
+.input {
+  border: none !important;
+  width: 300px;
+  background-color: #fffbf6;
+  border-bottom: 1px solid black !important;
+}
+.card-border {
+  border: none !important;
+}
+.card-1 {
+  width: 19rem !important;
+  background: transparent !important;
+  border: none !important;
+  margin-top: 65px;
+}
+.card-2 {
+  width: 15rem !important;
+  background: transparent !important;
+  border: none !important;
+  margin-top: 50px !important;
+  padding-top: 5px !important;
+  margin-left: 45px;
+}
+.web-9,
+.web-8,
+.web-3 {
+  margin-top: 25px;
+}
+
+.abc {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
